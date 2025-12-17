@@ -646,6 +646,12 @@
     outline-style: var(--tw-outline-style);
     outline-width: 1px;
   }
+  .md\:text-sm {
+    @media (width >= 48rem) {
+      font-size: var(--text-sm);
+      line-height: var(--tw-leading, var(--text-sm--line-height));
+    }
+  }
 }
 @property --tw-translate-x {
   syntax: "*";
